@@ -2,9 +2,9 @@ import requests, json
 from requests import Request, Session
 
 #Imput Names credential, Organization, discovery
-nameCredential = raw_input("Insert the name credential: ")
-nameOrganization = raw_input("Insert the name Organization: ")
-namediscovery = raw_input("Insert the name Organization: ")
+nameCredential = raw_input("Insert the PowerShell credential's name: ")
+nameOrganization = raw_input("Insert the  organization's name: ")
+namediscovery = raw_input("Insert the Discovery session's name: ")
 
 #Create Credential and save lastCredential ID
 s = requests.Session()
